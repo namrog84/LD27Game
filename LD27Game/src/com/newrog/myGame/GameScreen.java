@@ -245,6 +245,8 @@ public class GameScreen implements Screen {
 		
 		if (!player.alive) {
 			resetLabel.setVisible(true);
+		}else{
+			resetLabel.setVisible(false);
 		}
 
 		if (Gdx.input.isKeyPressed(Keys.R)) {
